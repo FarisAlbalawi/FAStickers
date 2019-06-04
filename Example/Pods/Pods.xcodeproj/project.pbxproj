@@ -16,8 +16,8 @@
 		6422E5BB22A6E04B00456AD1 /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5BA22A6E04B00456AD1 /* EmojiCell.swift */; };
 		6422E5BD22A6E06A00456AD1 /* GifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5BC22A6E06A00456AD1 /* GifCell.swift */; };
 		6422E5BF22A6E08800456AD1 /* EmojisCVDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5BE22A6E08800456AD1 /* EmojisCVDelegate.swift */; };
-		6422E5C122A6E0B500456AD1 /* StickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5C022A6E0B500456AD1 /* StickerViewController.swift */; };
-		6422E5C422A6E0EB00456AD1 /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5C322A6E0EB00456AD1 /* SwiftGif.swift */; };
+		6422E5F822A6FA5E00456AD1 /* StickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5F722A6FA5E00456AD1 /* StickerViewController.swift */; };
+		6422E5FA22A6FACC00456AD1 /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5F922A6FACC00456AD1 /* SwiftGif.swift */; };
 		8A87045BB4D695CA528D9AA3FC6DC813 /* Pods-FAStickers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB1309A2261DE87BFECECAA906B358D /* Pods-FAStickers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A274158A9EFE6498AA4C19F95ED618ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DEDBBE3EB96E758DC946C31DFF9BBA5F /* Pods-FAStickers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 770CA0947257433FC3692F11DB4112F8 /* Pods-FAStickers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,8 +57,8 @@
 		6422E5BA22A6E04B00456AD1 /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmojiCell.swift; path = FAStickers/Classes/EmojiCell.swift; sourceTree = "<group>"; };
 		6422E5BC22A6E06A00456AD1 /* GifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GifCell.swift; path = FAStickers/Classes/GifCell.swift; sourceTree = "<group>"; };
 		6422E5BE22A6E08800456AD1 /* EmojisCVDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmojisCVDelegate.swift; path = FAStickers/Classes/EmojisCVDelegate.swift; sourceTree = "<group>"; };
-		6422E5C022A6E0B500456AD1 /* StickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerViewController.swift; sourceTree = "<group>"; };
-		6422E5C322A6E0EB00456AD1 /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
+		6422E5F722A6FA5E00456AD1 /* StickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StickerViewController.swift; path = FAStickers/Classes/StickerViewController.swift; sourceTree = "<group>"; };
+		6422E5F922A6FACC00456AD1 /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftGif.swift; path = FAStickers/Classes/SwiftGif.swift; sourceTree = "<group>"; };
 		7144A9C0424ABEF61818629A90EEF2FE /* FAStickers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAStickers.xcconfig; sourceTree = "<group>"; };
 		757E5D29D75DFAC6738E77012EC0C7CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		770759C55054B71EDC150B9DDD20A695 /* Pods-FAStickers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStickers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -135,11 +135,11 @@
 				D729C327B1E7DD73E828B2B2240240A8 /* Pod */,
 				8E17DF0EC09C00275DD49055FC69D4BB /* Support Files */,
 				6422E5B822A6DFE200456AD1 /* StickerCell.swift */,
+				6422E5F922A6FACC00456AD1 /* SwiftGif.swift */,
 				6422E5BA22A6E04B00456AD1 /* EmojiCell.swift */,
 				6422E5BC22A6E06A00456AD1 /* GifCell.swift */,
 				6422E5BE22A6E08800456AD1 /* EmojisCVDelegate.swift */,
-				6422E5C022A6E0B500456AD1 /* StickerViewController.swift */,
-				6422E5C322A6E0EB00456AD1 /* SwiftGif.swift */,
+				6422E5F722A6FA5E00456AD1 /* StickerViewController.swift */,
 			);
 			name = FAStickers;
 			path = ../..;
@@ -383,11 +383,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6422E5F822A6FA5E00456AD1 /* StickerViewController.swift in Sources */,
 				31DF2BD2757F5B1C4511EFDF7AF91FEB /* FAStickers-dummy.m in Sources */,
 				6422E5B922A6DFE200456AD1 /* StickerCell.swift in Sources */,
+				6422E5FA22A6FACC00456AD1 /* SwiftGif.swift in Sources */,
 				6422E5BF22A6E08800456AD1 /* EmojisCVDelegate.swift in Sources */,
-				6422E5C122A6E0B500456AD1 /* StickerViewController.swift in Sources */,
-				6422E5C422A6E0EB00456AD1 /* SwiftGif.swift in Sources */,
 				6422E5BD22A6E06A00456AD1 /* GifCell.swift in Sources */,
 				6422E5BB22A6E04B00456AD1 /* EmojiCell.swift in Sources */,
 				017D97FC3296A113F519D904B5128C04 /* ReplaceMe.swift in Sources */,

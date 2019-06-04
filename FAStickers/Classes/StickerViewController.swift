@@ -16,7 +16,7 @@ public protocol StickerEmojiDelegate {
 
 
 
-open class StickerViewController: UIViewController, UIGestureRecognizerDelegate {
+public class StickerViewController: UIViewController, UIGestureRecognizerDelegate {
     var headerView = UIView()
     var holdView = UIView()
     var scrollView = UIScrollView()
@@ -28,12 +28,12 @@ open class StickerViewController: UIViewController, UIGestureRecognizerDelegate 
     var emojisDelegate: EmojisCVDelegate!
     var emojisCollectioView: UICollectionView!
     
-    var gitCollectioView: UICollectionView!
-   public var gits: [String] = []
+    public var gitCollectioView: UICollectionView!
+    public var gits: [String] = []
     
     
-   public var stickers: [String] = []
-   public var stickerDelegate : StickerEmojiDelegate?
+    public var stickers: [String] = []
+    public var stickerDelegate : StickerEmojiDelegate?
     
     
     let screenSize = UIScreen.main.bounds.size
@@ -147,7 +147,7 @@ open class StickerViewController: UIViewController, UIGestureRecognizerDelegate 
         emojisCollectioView.backgroundColor = .clear
         scrollView.addSubview(emojisCollectioView)
         emojisDelegate = EmojisCVDelegate()
-        emojisDelegate.StickerEmojiDelegate = stickerDelegate
+        emojisDelegate.EmojiDelegate = stickerDelegate
         emojisCollectioView.delegate = emojisDelegate
         emojisCollectioView.dataSource = emojisDelegate
         

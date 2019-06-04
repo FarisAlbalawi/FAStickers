@@ -25,7 +25,7 @@ s.swift_version          = '5'
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'FAStickers/Classes/**/*'
+  s.source_files = 'FAStickers/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'FAStickers' => ['FAStickers/Assets/*.png']
