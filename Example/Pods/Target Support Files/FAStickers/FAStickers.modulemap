@@ -1,0 +1,6 @@
+framework module FAStickers {
+  umbrella header "FAStickers-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017D97FC3296A113F519D904B5128C04 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0709732ED8349A12B250FA628D9AAA /* ReplaceMe.swift */; };
+		24EF528EB1C39F945BEFAA7766F6B054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		31DF2BD2757F5B1C4511EFDF7AF91FEB /* FAStickers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD759D7F1B40FC8D2D1B5F6B0E3A552E /* FAStickers-dummy.m */; };
+		3C2C1EC59AD2CDCDCE2C9FE8C34967A6 /* Pods-FAStickers_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9983AAB50F03F4382027BD93683FA273 /* Pods-FAStickers_Tests-dummy.m */; };
+		43653E7AD808A91629D9478B8331C8D5 /* FAStickers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05371B9C207AFBF38A5413708B9E745B /* FAStickers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6422E5B922A6DFE200456AD1 /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5B822A6DFE200456AD1 /* StickerCell.swift */; };
+		6422E5BB22A6E04B00456AD1 /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5BA22A6E04B00456AD1 /* EmojiCell.swift */; };
+		6422E5BD22A6E06A00456AD1 /* GifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5BC22A6E06A00456AD1 /* GifCell.swift */; };
+		6422E5BF22A6E08800456AD1 /* EmojisCVDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5BE22A6E08800456AD1 /* EmojisCVDelegate.swift */; };
+		6422E5C122A6E0B500456AD1 /* StickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5C022A6E0B500456AD1 /* StickerViewController.swift */; };
+		6422E5C422A6E0EB00456AD1 /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422E5C322A6E0EB00456AD1 /* SwiftGif.swift */; };
+		8A87045BB4D695CA528D9AA3FC6DC813 /* Pods-FAStickers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB1309A2261DE87BFECECAA906B358D /* Pods-FAStickers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A274158A9EFE6498AA4C19F95ED618ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DEDBBE3EB96E758DC946C31DFF9BBA5F /* Pods-FAStickers_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 770CA0947257433FC3692F11DB4112F8 /* Pods-FAStickers_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECA050EA1B397C8085F448FF003D44AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EE13F4FABE8E03C8B2EB01B5E6FA3C34 /* Pods-FAStickers_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5936E9AE8AF3B047F4031B44AB82B6 /* Pods-FAStickers_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E9BF33D792780AE4C0949DF8BFC4CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF99E679121F77C1E375597596F78E8;
+			remoteInfo = FAStickers;
+		};
+		73F0D30BBEEED4BED1D6CD4851FB7B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFEF27208EC8A450ECDC9870D84FF6E;
+			remoteInfo = "Pods-FAStickers_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05371B9C207AFBF38A5413708B9E745B /* FAStickers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAStickers-umbrella.h"; sourceTree = "<group>"; };
+		09A2885A827ECD694C6A63490B71B200 /* Pods-FAStickers_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAStickers_Tests.modulemap"; sourceTree = "<group>"; };
+		1786523321C485AD0E62A5A456A34694 /* Pods-FAStickers_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStickers_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1A039FD5ECEA021F7527C72C4D5B337E /* Pods-FAStickers_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStickers_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1F5936E9AE8AF3B047F4031B44AB82B6 /* Pods-FAStickers_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAStickers_Example-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E0709732ED8349A12B250FA628D9AAA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FAStickers/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		577D8B2E153DC324432F713285932019 /* Pods-FAStickers_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAStickers_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5C7046A0F6C934F2C25817EFE71AF20D /* Pods-FAStickers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStickers_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5E517DE7C25C04725E6268F596A6683B /* FAStickers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FAStickers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6422E5B822A6DFE200456AD1 /* StickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StickerCell.swift; path = FAStickers/Classes/StickerCell.swift; sourceTree = "<group>"; };
+		6422E5BA22A6E04B00456AD1 /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmojiCell.swift; path = FAStickers/Classes/EmojiCell.swift; sourceTree = "<group>"; };
+		6422E5BC22A6E06A00456AD1 /* GifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GifCell.swift; path = FAStickers/Classes/GifCell.swift; sourceTree = "<group>"; };
+		6422E5BE22A6E08800456AD1 /* EmojisCVDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmojisCVDelegate.swift; path = FAStickers/Classes/EmojisCVDelegate.swift; sourceTree = "<group>"; };
+		6422E5C022A6E0B500456AD1 /* StickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerViewController.swift; sourceTree = "<group>"; };
+		6422E5C322A6E0EB00456AD1 /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
+		7144A9C0424ABEF61818629A90EEF2FE /* FAStickers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAStickers.xcconfig; sourceTree = "<group>"; };
+		757E5D29D75DFAC6738E77012EC0C7CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		770759C55054B71EDC150B9DDD20A695 /* Pods-FAStickers_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStickers_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		770CA0947257433FC3692F11DB4112F8 /* Pods-FAStickers_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAStickers_Example-umbrella.h"; sourceTree = "<group>"; };
+		8C08137C614E37B102947FE444DD3867 /* Pods-FAStickers_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAStickers_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92686D966CD26E321514ED9A1D366A63 /* Pods-FAStickers_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStickers_Example-Info.plist"; sourceTree = "<group>"; };
+		9983AAB50F03F4382027BD93683FA273 /* Pods-FAStickers_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAStickers_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AACAE5AF07C36EACD92B898B329EF5C8 /* Pods-FAStickers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAStickers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB1309A2261DE87BFECECAA906B358D /* Pods-FAStickers_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAStickers_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B1D5A8A5F170C132B3E5091FAF84159D /* Pods_FAStickers_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAStickers_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A651F9A3B82C20D90A78C4E802CCD2 /* Pods-FAStickers_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStickers_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4D51A337E572F94210077A8C4A4C7E9 /* FAStickers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FAStickers.modulemap; sourceTree = "<group>"; };
+		B522388F92167E79C053DBEAA8EDC16E /* Pods-FAStickers_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAStickers_Example.modulemap"; sourceTree = "<group>"; };
+		BB7C726CC39B2C63049E259991B14B63 /* Pods-FAStickers_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAStickers_Tests-Info.plist"; sourceTree = "<group>"; };
+		BDC817A0EF6C66EA572106A79F523822 /* FAStickers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FAStickers-Info.plist"; sourceTree = "<group>"; };
+		C529A009D73C35037D853C989AEB1693 /* FAStickers.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FAStickers.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CABF2586BB031EBC7E4DEAD727C4DC4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EE231A76B30B42F7E388D0243A000D3A /* Pods_FAStickers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAStickers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F447060E4D3514B7CFF6DF63F6E95155 /* Pods-FAStickers_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAStickers_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F64F385B92DCD477B2586495926D4854 /* FAStickers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAStickers-prefix.pch"; sourceTree = "<group>"; };
+		FD759D7F1B40FC8D2D1B5F6B0E3A552E /* FAStickers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAStickers-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E82E5662DBF3AA375BDEADBBA0A79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA050EA1B397C8085F448FF003D44AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67FE788D3363C81D580DD1E847AE93B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A274158A9EFE6498AA4C19F95ED618ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88F2C62E377D2DC3868A3E30A490480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EF528EB1C39F945BEFAA7766F6B054 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A93468DC220F9756837AFA26A2714C /* Pods-FAStickers_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B522388F92167E79C053DBEAA8EDC16E /* Pods-FAStickers_Example.modulemap */,
+				8C08137C614E37B102947FE444DD3867 /* Pods-FAStickers_Example-acknowledgements.markdown */,
+				770759C55054B71EDC150B9DDD20A695 /* Pods-FAStickers_Example-acknowledgements.plist */,
+				1F5936E9AE8AF3B047F4031B44AB82B6 /* Pods-FAStickers_Example-dummy.m */,
+				577D8B2E153DC324432F713285932019 /* Pods-FAStickers_Example-frameworks.sh */,
+				92686D966CD26E321514ED9A1D366A63 /* Pods-FAStickers_Example-Info.plist */,
+				770CA0947257433FC3692F11DB4112F8 /* Pods-FAStickers_Example-umbrella.h */,
+				1A039FD5ECEA021F7527C72C4D5B337E /* Pods-FAStickers_Example.debug.xcconfig */,
+				1786523321C485AD0E62A5A456A34694 /* Pods-FAStickers_Example.release.xcconfig */,
+			);
+			name = "Pods-FAStickers_Example";
+			path = "Target Support Files/Pods-FAStickers_Example";
+			sourceTree = "<group>";
+		};
+		28CDDD8682D8ECB7578B6BFB51830309 /* FAStickers */ = {
+			isa = PBXGroup;
+			children = (
+				3E0709732ED8349A12B250FA628D9AAA /* ReplaceMe.swift */,
+				D729C327B1E7DD73E828B2B2240240A8 /* Pod */,
+				8E17DF0EC09C00275DD49055FC69D4BB /* Support Files */,
+				6422E5B822A6DFE200456AD1 /* StickerCell.swift */,
+				6422E5BA22A6E04B00456AD1 /* EmojiCell.swift */,
+				6422E5BC22A6E06A00456AD1 /* GifCell.swift */,
+				6422E5BE22A6E08800456AD1 /* EmojisCVDelegate.swift */,
+				6422E5C022A6E0B500456AD1 /* StickerViewController.swift */,
+				6422E5C322A6E0EB00456AD1 /* SwiftGif.swift */,
+			);
+			name = FAStickers;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4CB5137956AF1912543B7E252F1BD6F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E517DE7C25C04725E6268F596A6683B /* FAStickers.framework */,
+				B1D5A8A5F170C132B3E5091FAF84159D /* Pods_FAStickers_Example.framework */,
+				EE231A76B30B42F7E388D0243A000D3A /* Pods_FAStickers_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E17DF0EC09C00275DD49055FC69D4BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4D51A337E572F94210077A8C4A4C7E9 /* FAStickers.modulemap */,
+				7144A9C0424ABEF61818629A90EEF2FE /* FAStickers.xcconfig */,
+				FD759D7F1B40FC8D2D1B5F6B0E3A552E /* FAStickers-dummy.m */,
+				BDC817A0EF6C66EA572106A79F523822 /* FAStickers-Info.plist */,
+				F64F385B92DCD477B2586495926D4854 /* FAStickers-prefix.pch */,
+				05371B9C207AFBF38A5413708B9E745B /* FAStickers-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FAStickers";
+			sourceTree = "<group>";
+		};
+		A08A566DF981767C9A165B05C05E99A7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A93468DC220F9756837AFA26A2714C /* Pods-FAStickers_Example */,
+				F32B7F6F7410775859BB5B8AA268209C /* Pods-FAStickers_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E468390324C7352FD892F2FAA0FAB0F9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4CB5137956AF1912543B7E252F1BD6F0 /* Products */,
+				A08A566DF981767C9A165B05C05E99A7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D729C327B1E7DD73E828B2B2240240A8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C529A009D73C35037D853C989AEB1693 /* FAStickers.podspec */,
+				CABF2586BB031EBC7E4DEAD727C4DC4F /* LICENSE */,
+				757E5D29D75DFAC6738E77012EC0C7CF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E468390324C7352FD892F2FAA0FAB0F9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28CDDD8682D8ECB7578B6BFB51830309 /* FAStickers */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F32B7F6F7410775859BB5B8AA268209C /* Pods-FAStickers_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				09A2885A827ECD694C6A63490B71B200 /* Pods-FAStickers_Tests.modulemap */,
+				F447060E4D3514B7CFF6DF63F6E95155 /* Pods-FAStickers_Tests-acknowledgements.markdown */,
+				B2A651F9A3B82C20D90A78C4E802CCD2 /* Pods-FAStickers_Tests-acknowledgements.plist */,
+				9983AAB50F03F4382027BD93683FA273 /* Pods-FAStickers_Tests-dummy.m */,
+				BB7C726CC39B2C63049E259991B14B63 /* Pods-FAStickers_Tests-Info.plist */,
+				AFB1309A2261DE87BFECECAA906B358D /* Pods-FAStickers_Tests-umbrella.h */,
+				AACAE5AF07C36EACD92B898B329EF5C8 /* Pods-FAStickers_Tests.debug.xcconfig */,
+				5C7046A0F6C934F2C25817EFE71AF20D /* Pods-FAStickers_Tests.release.xcconfig */,
+			);
+			name = "Pods-FAStickers_Tests";
+			path = "Target Support Files/Pods-FAStickers_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA46842224C0276FACFFC629ABF74E8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDBBE3EB96E758DC946C31DFF9BBA5F /* Pods-FAStickers_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55D3FF541F762620577C14FD4ED7492 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43653E7AD808A91629D9478B8331C8D5 /* FAStickers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8A83AA921E3900E4C6D80D269B8988 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A87045BB4D695CA528D9AA3FC6DC813 /* Pods-FAStickers_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3CF99E679121F77C1E375597596F78E8 /* FAStickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32ABB83D2A16FCC46798227CECC05A58 /* Build configuration list for PBXNativeTarget "FAStickers" */;
+			buildPhases = (
+				E55D3FF541F762620577C14FD4ED7492 /* Headers */,
+				1FA7FFA6E286CD7C99C619453BA3D7AB /* Sources */,
+				67FE788D3363C81D580DD1E847AE93B2 /* Frameworks */,
+				F70F6B19F48031E75547181CB3134780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAStickers;
+			productName = FAStickers;
+			productReference = 5E517DE7C25C04725E6268F596A6683B /* FAStickers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F61FA84AE6205BE125B16F988779408 /* Pods-FAStickers_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0051C4838D1C8EBBF8A12A3F6543FBC0 /* Build configuration list for PBXNativeTarget "Pods-FAStickers_Tests" */;
+			buildPhases = (
+				FA8A83AA921E3900E4C6D80D269B8988 /* Headers */,
+				2F780BCEAA40828327BA22617F8B516F /* Sources */,
+				38E82E5662DBF3AA375BDEADBBA0A79C /* Frameworks */,
+				FEA8D45624D57026DFAAF7ADA3B3B35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058F3DE744BA582B26D866BBCAC53256 /* PBXTargetDependency */,
+			);
+			name = "Pods-FAStickers_Tests";
+			productName = "Pods-FAStickers_Tests";
+			productReference = EE231A76B30B42F7E388D0243A000D3A /* Pods_FAStickers_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBFEF27208EC8A450ECDC9870D84FF6E /* Pods-FAStickers_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332B5C1E00DB5D328DBF2C0192D7179B /* Build configuration list for PBXNativeTarget "Pods-FAStickers_Example" */;
+			buildPhases = (
+				AA46842224C0276FACFFC629ABF74E8C /* Headers */,
+				4B9AA6C1BBC55E8225AD359FD828E539 /* Sources */,
+				F88F2C62E377D2DC3868A3E30A490480 /* Frameworks */,
+				B6F53FCD1876A5DFC09342FCDBE3500B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CFEEB0171C7A13FC0E60EE4931539B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FAStickers_Example";
+			productName = "Pods-FAStickers_Example";
+			productReference = B1D5A8A5F170C132B3E5091FAF84159D /* Pods_FAStickers_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4CB5137956AF1912543B7E252F1BD6F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF99E679121F77C1E375597596F78E8 /* FAStickers */,
+				CBFEF27208EC8A450ECDC9870D84FF6E /* Pods-FAStickers_Example */,
+				7F61FA84AE6205BE125B16F988779408 /* Pods-FAStickers_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6F53FCD1876A5DFC09342FCDBE3500B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70F6B19F48031E75547181CB3134780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA8D45624D57026DFAAF7ADA3B3B35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA7FFA6E286CD7C99C619453BA3D7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DF2BD2757F5B1C4511EFDF7AF91FEB /* FAStickers-dummy.m in Sources */,
+				6422E5B922A6DFE200456AD1 /* StickerCell.swift in Sources */,
+				6422E5BF22A6E08800456AD1 /* EmojisCVDelegate.swift in Sources */,
+				6422E5C122A6E0B500456AD1 /* StickerViewController.swift in Sources */,
+				6422E5C422A6E0EB00456AD1 /* SwiftGif.swift in Sources */,
+				6422E5BD22A6E06A00456AD1 /* GifCell.swift in Sources */,
+				6422E5BB22A6E04B00456AD1 /* EmojiCell.swift in Sources */,
+				017D97FC3296A113F519D904B5128C04 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F780BCEAA40828327BA22617F8B516F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2C1EC59AD2CDCDCE2C9FE8C34967A6 /* Pods-FAStickers_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9AA6C1BBC55E8225AD359FD828E539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE13F4FABE8E03C8B2EB01B5E6FA3C34 /* Pods-FAStickers_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058F3DE744BA582B26D866BBCAC53256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FAStickers_Example";
+			target = CBFEF27208EC8A450ECDC9870D84FF6E /* Pods-FAStickers_Example */;
+			targetProxy = 73F0D30BBEEED4BED1D6CD4851FB7B79 /* PBXContainerItemProxy */;
+		};
+		4CFEEB0171C7A13FC0E60EE4931539B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FAStickers;
+			target = 3CF99E679121F77C1E375597596F78E8 /* FAStickers */;
+			targetProxy = 5E9BF33D792780AE4C0949DF8BFC4CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B7249D7FB7CA25928D4BB7E51EF833B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACAE5AF07C36EACD92B898B329EF5C8 /* Pods-FAStickers_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAStickers_Tests/Pods-FAStickers_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAStickers_Tests/Pods-FAStickers_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E4CC36DA06991CD6612B65CAB22B89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7144A9C0424ABEF61818629A90EEF2FE /* FAStickers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FAStickers/FAStickers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAStickers/FAStickers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FAStickers/FAStickers.modulemap";
+				PRODUCT_MODULE_NAME = FAStickers;
+				PRODUCT_NAME = FAStickers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		689EE08F5D817B35BD33768615C7DE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7046A0F6C934F2C25817EFE71AF20D /* Pods-FAStickers_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAStickers_Tests/Pods-FAStickers_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAStickers_Tests/Pods-FAStickers_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7369FEA1A813527DE1BE6C5EB4F8EF4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7144A9C0424ABEF61818629A90EEF2FE /* FAStickers.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FAStickers/FAStickers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAStickers/FAStickers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FAStickers/FAStickers.modulemap";
+				PRODUCT_MODULE_NAME = FAStickers;
+				PRODUCT_NAME = FAStickers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD34100049D55325C6221AB2640FEAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1786523321C485AD0E62A5A456A34694 /* Pods-FAStickers_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAStickers_Example/Pods-FAStickers_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAStickers_Example/Pods-FAStickers_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CB09A51547881F80B4FD612FBA40476C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A039FD5ECEA021F7527C72C4D5B337E /* Pods-FAStickers_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FAStickers_Example/Pods-FAStickers_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FAStickers_Example/Pods-FAStickers_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0051C4838D1C8EBBF8A12A3F6543FBC0 /* Build configuration list for PBXNativeTarget "Pods-FAStickers_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7249D7FB7CA25928D4BB7E51EF833B /* Debug */,
+				689EE08F5D817B35BD33768615C7DE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32ABB83D2A16FCC46798227CECC05A58 /* Build configuration list for PBXNativeTarget "FAStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7369FEA1A813527DE1BE6C5EB4F8EF4E /* Debug */,
+				0E4CC36DA06991CD6612B65CAB22B89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332B5C1E00DB5D328DBF2C0192D7179B /* Build configuration list for PBXNativeTarget "Pods-FAStickers_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB09A51547881F80B4FD612FBA40476C /* Debug */,
+				AD34100049D55325C6221AB2640FEAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

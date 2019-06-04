@@ -1,0 +1,16 @@
+PODS:
+  - FAStickers (0.1.0)
+
+DEPENDENCIES:
+  - FAStickers (from `../`)
+
+EXTERNAL SOURCES:
+  FAStickers:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FAStickers: 48ba452a651bb0cf6acbf78bd962f4cbcf928876
+
+PODFILE CHECKSUM: e4beaf079ab7f9c450c6421f146ec998d5a261ea
+
+COCOAPODS: 1.6.2
