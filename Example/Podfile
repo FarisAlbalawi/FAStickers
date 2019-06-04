@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FAStickers_Example' do
+  pod 'FAStickers', :path => '../'
+
+  target 'FAStickers_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
