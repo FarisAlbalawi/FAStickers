@@ -44,7 +44,7 @@ class ViewController: UIViewController{
 var StickerVC: StickerViewController!
 public var stickers : [String] = []
 public var gifs : [String] = []
-}
+
 
 
 override func viewDidLoad() {
